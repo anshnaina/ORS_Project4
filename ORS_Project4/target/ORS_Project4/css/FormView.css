@@ -1,0 +1,31 @@
+@charset "ISO-8859-1";
+
+.header{background-size: cover; height: 50px; display: inline-block; align-items: center; font-family: monospace;}
+
+.tbox{width:5cm; height: 30px; padding-left: 15px; border-radius: 50px; border:2px solid; 
+margin-bottom: 10px; outline: none; font-size: small; transition: 0.8s; color: black ;}
+	 
+.tbox:focus{border: 2px solid #808080; transition: 0.8s; color: black;}
+
+.btn{width: 3cm; border-radius: 50px; margin-top: 10px; margin-bottom: 10px; background-color: red; 
+color: black; font-size: medium; outline: none; transition: 0.6s; font-weight: bolder;}
+
+.btn:hover{background-color: yellow; transition: 0.6s;}
+
+
+
+.srpnbtn {
+  background-color: black;
+  color: white;
+}
+
+.srpnbtn.disabled, .srpnbtn[disabled] {
+  background-color: gray;
+  color: white;
+}
+
+.srpnbtn:hover:enabled {
+  background-color: #808080;
+  color: black;
+  transition: 0.3s;
+}
